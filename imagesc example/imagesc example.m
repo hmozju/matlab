@@ -7,9 +7,9 @@ x = [0:0.01:10-0.01];
 
 y = [0:0.01:10-0.01];
 
-m = length(x);
+m = length(x);        % length of variable x %
 
-n = length(y);
+n = length(y);        % length of variable y %
 
 for i = [1:m];
     
@@ -25,7 +25,7 @@ for i = [1:m]
     
     for j = [1:n]
         
-f_max = max(f(i,j));
+f_max = max(f(i,j));  % normalise the data %
 
     end;
 end;
